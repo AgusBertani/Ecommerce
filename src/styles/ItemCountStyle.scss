@@ -1,0 +1,64 @@
+.productActions {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+}
+.productActions .productCounter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productActions .productCounter .countMinusMore {
+  font-size: 1.25rem;
+  padding: 0;
+  width: 40px;
+  height: 45px;
+}
+.button.countMinusMore {
+  font-size: 0.938rem;
+  border-radius: 0.3rem;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  cursor: pointer;
+  color: #141414;
+  transition: 0.3s;
+}
+.productActions .productCounter .countNumber {
+  flex: 1 1;
+  text-align: center;
+  margin: auto 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.productActions .productCounter .countNumber .btn-add {
+  text-align: center;
+  height: 3.5rem;
+  flex: 1 1;
+  width: 40px;
+}
+.productActions .btn-fw {
+  margin-top: 1rem;
+}
+@media screen and (min-width: 640px) {
+  .productActions {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .productActions .btn-add {
+    margin: 1rem 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .productActions {
+    flex-direction: row;
+  }
+  .productActions .btn-add {
+    margin: 0 1.5rem;
+  }
+}

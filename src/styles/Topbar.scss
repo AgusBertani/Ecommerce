@@ -1,0 +1,35 @@
+.tb {
+  display: flex;
+  padding: 12px 50px;
+  background-color: black;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.tb-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tb-text {
+  margin: 0 100px 0 0;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-family: "adihausDin", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 15px;
+  letter-spacing: 2px;
+}
+
+.tb-icon {
+  width: 25px;
+  height: 20px;
+  vertical-align: bottom;
+  margin: 0 3px;
+}
+@media screen and (max-width: 768px) {
+  .tb {
+    display: none;
+  }
+}

@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  // margin: 3rem 0 0 0;
+  font-family: "adihausDin", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #141414;
+  line-height: 1.6;
+}
+span {
+  font-family: "adihausDin", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "AdineuePRO", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

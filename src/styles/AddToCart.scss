@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  background-color: #141414;
+  color: #fff;
+  padding: 1.125rem 2rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  border: 2px solid #8a8a8a;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn img {
+  height: 1.5rem;
+  filter: brightness(300%);
+  margin-top: 0.8rem;
+}
+
+.btn p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+}

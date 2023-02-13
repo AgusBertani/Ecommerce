@@ -1,0 +1,55 @@
+.featured__container {
+  row-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.sunglass {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+
+  .sunglass__sale {
+    position: absolute;
+    left: 0.5rem;
+    background-color: #141414;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 1.25rem;
+    transform: rotate(-90deg);
+    letter-spacing: 0.1rem;
+  }
+  .sunglass__img {
+    width: 220px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    filter: drop-shadow(0 12px 8px rgba(0, 0, 0, 0.2));
+    border-radius: 30px;
+  }
+  .sunglass__name,
+  .sunglass__price {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .sunglass__name {
+    margin-bottom: 2rem;
+  }
+  .sunglass__price {
+    margin-bottom: 2rem;
+  }
+
+  &:hover {
+    transform: translateY(-0.5rem);
+  }
+}

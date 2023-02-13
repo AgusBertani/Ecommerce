@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.section-title {
+  font-size: 10px;
+  font-family: "adineue PRO KZ Bold";
+  text-transform: uppercase;
+}
+.contact {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 1.5rem;
+  width: 100%;
+}
+.contact .contactForm .form-container {
+  margin-bottom: 20px;
+}
+.contact .contactForm .form-input {
+  border-radius: 0;
+  border: 1px solid #141414;
+  font-size: 18px;
+  padding: 10px 15px;
+  color: #141414;
+}
+.spanForm {
+  font-size: 14px;
+  color: #141414;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact {
+    width: 300px;
+    margin-right: 1rem;
+  }
+  .button-fw {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact .contactForm .form-input {
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section-title {
+    text-align: center;
+  }
+}

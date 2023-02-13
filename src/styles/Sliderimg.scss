@@ -1,0 +1,35 @@
+.carousel {
+  display: flex;
+  justify-content: center;
+  .slide {
+    height: 50vh;
+    img {
+      max-height: 100%;
+      width: auto;
+    }
+  }
+  .image {
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    border-radius: 1rem;
+  }
+  .carousel-status {
+    display: none;
+  }
+  .control-dots .dot {
+    background: #141414;
+  }
+  .thumb {
+    border-radius: 1rem;
+  }
+  .thumb.selected {
+    border: 2px solid #68707d;
+    img {
+      opacity: 0.5;
+    }
+  }
+  .control-arrow {
+    display: none;
+  }
+}

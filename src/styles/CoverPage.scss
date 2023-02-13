@@ -1,0 +1,73 @@
+.cover {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  padding-bottom: 5rem;
+  border-bottom: 1px solid rgba(169, 177, 245, 0.75);
+  .cover-container {
+    height: 70vh;
+
+    .logo-hero {
+      display: flex;
+
+      .logo-hero-img {
+        top: 0;
+        max-width: initial;
+        width: 320px;
+        background: rgba(169, 177, 245, 0.75);
+        border-radius: 40%;
+      }
+    }
+
+    .logo-hero-info {
+      .hero-years {
+        display: block;
+        font-size: 0.813rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+      }
+
+      .hero-info {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: 900;
+      }
+
+      .hero-description {
+        margin-bottom: 1rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    padding-bottom: 0;
+
+    .cover-container {
+      grid-template-columns: max-content max-content;
+      justify-content: center;
+      align-items: center;
+
+      .logo-hero {
+        order: 1;
+
+        .logo-hero-img {
+          width: 300px;
+          top: 1rem;
+          right: 0;
+          left: -3rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover .cover-container .logo-hero {
+    justify-content: center;
+    .logo-hero-img {
+      width: 250px;
+      margin-top: 1rem;
+    }
+  }
+}

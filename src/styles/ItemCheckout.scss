@@ -1,0 +1,57 @@
+.itemCheckoutContainer {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 16px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+.itemCheckoutContainer .itemCheckout {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin: 10px;
+}
+.itemCheckoutContainer .itemCheckout .itemCheckoutInfo {
+  margin: auto;
+}
+.btnDelete {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
+  background-color: #f7f7f7;
+  font-size: 1.3rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  color: #141414;
+  transition: 0.3s;
+}
+.btnDelete:hover {
+  transform: translateY(-0.5rem);
+  transform: rotate(-50deg);
+}
+.itemCheckoutContainer figure {
+  margin: 0;
+}
+.itemCheckoutContainer figure img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+@media screen and (max-width: 1000px) {
+  .itemCheckoutContainer .itemCheckout .itemCheckoutInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .itemCheckoutContainer .itemCheckout .itemCheckoutInfo {
+    font-size: 10px;
+  }
+  .itemCheckoutContainer figure img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+}
