@@ -1,7 +1,7 @@
 const productList = [
   {
     id: "1",
-    imagen: "../images/zapatillas-3mc-vulc.jpg",
+    imagen: "../images/product-hombre-thumbnail-1.webp",
     nombre: "3MC Vulc",
     marca: "Zapatillas Adidas",
     precio: 10999,

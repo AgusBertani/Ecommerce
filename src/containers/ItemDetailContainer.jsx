@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import ItemDetail from "../components/ItemDetail";
 import loadingGif from "../assets/img/loading.gif";
 import "../styles/Loading.scss";
+import {db} from "../firebase/config"
 
 const ItemDetailContainer = () => {
   const [producto, setProduct] = useState({});
